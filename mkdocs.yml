@@ -58,8 +58,11 @@ nav:
     - Intro: guide/index.md
   - QLDB Demo:
     - Demo: demo/index.md
+    - About the Demo: demo/architecture.md
+    - Getting Started: demo/getting-started.md
   - QLDB Patterns:
     - Patterns: patterns/index.md
 
 markdown_extensions:
   - attr_list
+  - md_in_html
