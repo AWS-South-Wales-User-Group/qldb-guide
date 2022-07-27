@@ -4,6 +4,8 @@ site_author: Matt Lewis
 # Repository
 repo_name: AWS-South-Wales-User-Group/qldb-guide
 repo_url: https://github.com/AWS-South-Wales-User-Group/qldb-guide
+edit_uri: edit/main/docs/
+
 
 theme:
   name: material
