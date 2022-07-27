@@ -1,15 +1,63 @@
 site_name: QLDB Guide
 site_author: Matt Lewis
 
+# Repository
+repo_name: AWS-South-Wales-User-Group/qldb-guide
+repo_url: https://github.com/AWS-South-Wales-User-Group/qldb-guide
+
 theme:
   name: material
+#  logo: assets/QLDB-Guide.svg
   font:
     text: Ubuntu
 
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - content.code.annotate
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
 
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
 
 
 # Page tree
 nav:
   - Home: index.md
+  - QLDB Guide:
+    - Intro: guide/index.md
+  - QLDB Demo:
+    - Demo: demo/index.md
+  - QLDB Patterns:
+    - Patterns: patterns/index.md
+
+markdown_extensions:
+  - attr_list
