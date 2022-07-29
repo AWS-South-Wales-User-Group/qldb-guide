@@ -5,6 +5,8 @@ This lists the blog posts
 
 * **[Securely Access QLDB from a Private Subnet](./securely-access-qldb-from-private-subnet/)**
 
+* **[Concurrency Control in QLDB](./concurrency-control-in-qldb/)**
+
 
 
 2020 Posts
