@@ -68,10 +68,14 @@ nav:
     - Patterns: patterns/index.md
   - Blog Posts: 
     - Intro: blog/index.md
+    - Streaming Data to OpenSearch: blog/streaming-data-to-opensearch.md
+    - Protecting Data in QLDB Ledger: blog/protecting-data-in-qldb.md
+    - Concurrency Control in QLDB: blog/concurrency-control-in-qldb.md
+    - Fine Grained Access Control in QLDB: blog/qldb-fine-grained-access-control.md
     - Securely Access QLDB from Private Subnet: blog/securely-access-qldb-from-private-subnet.md
+    - Stream Processing with DynamoDB Streams and QLDB Streams: blog/stream-processing-with-qldb-and-dynamodb.md
     - Stream Data to ElasticSearch: blog/stream-data-from-qldb-to-elasticsearch.md
     - Stream Data to DynamoDB: blog/stream-data-from-qldb-to-dynamodb.md
-
 
 markdown_extensions:
   - attr_list
