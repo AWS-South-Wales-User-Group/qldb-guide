@@ -6,7 +6,6 @@ repo_name: AWS-South-Wales-User-Group/qldb-guide
 repo_url: https://github.com/AWS-South-Wales-User-Group/qldb-guide
 edit_uri: edit/main/docs/
 
-
 theme:
   name: material
 #  logo: assets/QLDB-Guide.svg
@@ -59,15 +58,20 @@ nav:
     - What is QLDB: guide/what-is-qldb.md
     - Database Freedom: guide/database-freedom.md
     - Setting Permissions: guide/setting-permissions.md
-    - Concurrency Control: guide/concurrency-control.md
+    - Data Design: guide/data-design.md
+    - Security: guide/security.md
   - QLDB Demo:
     - Demo: demo/index.md
     - About the Demo: demo/architecture.md
     - Getting Started: demo/getting-started.md
+    - Register Licence: demo/create-bicycle-licence.md
+    - History: demo/history.md
+    - Search: demo/search.md
+    - Enquiry: demo/enquiry.md
   - QLDB Patterns:
     - Patterns: patterns/index.md
   - Blog Posts: 
-    - Intro: blog/index.md
+    - Overview: blog/index.md
     - Streaming Data to OpenSearch: blog/streaming-data-to-opensearch.md
     - Protecting Data in QLDB Ledger: blog/protecting-data-in-qldb.md
     - Concurrency Control in QLDB: blog/concurrency-control-in-qldb.md
@@ -80,3 +84,4 @@ nav:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - tables

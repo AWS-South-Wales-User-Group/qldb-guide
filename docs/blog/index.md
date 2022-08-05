@@ -1,4 +1,4 @@
-I regularly publish QLDB related blog posts on the AWS Heros `dev.to` space that can be found [here](https://dev.to/mlewis7127). These are republished here for completeness:
+I regularly publish blog posts on the AWS Heros `dev.to` space that can be found [here](https://dev.to/mlewis7127). QLDB related posts are republished below for completeness:
 
 2021 Posts
 

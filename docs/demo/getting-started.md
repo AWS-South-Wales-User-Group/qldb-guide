@@ -12,7 +12,7 @@ After you click on the `Create Account` button, you will be presented with a scr
 
 The verification will automatically be sent to the email address you used to register with:
 
-![SCREENSHOT](./images/qldbdemo-verification-code.jpg){ width="50%" }
+![SCREENSHOT](./images/qldbdemo-verification-code.jpg){ width="70%" }
 
 After you enter this code and click confirm, you will be presented with the main landing page of the `QLDB Demo`, which allows you to create, update and delete a Bicycle Licence:
 
