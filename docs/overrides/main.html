@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {% set title = config.site_name %}
+  {% if page and page.meta and page.meta.title %}
+    {% set title = title ~ " - " ~ page.meta.title %}
+  {% elif page and page.title and not page.is_homepage %}
+    {% set title = title ~ " - " ~ page.title %}
+  {% endif %}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="QLDB Guide" />
+  <meta name="twitter:description" content="A guide to the AWS ledger database" />
+  <meta name="twitter:image" content="https://qldbdemo.com/amazon-qldb.png" />
+
+{% endblock %}
