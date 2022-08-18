@@ -219,7 +219,7 @@ There are a number of [quotas and limits in QLDB](https://docs.aws.amazon.com/ql
 
 #### Event-Driven
 
-QLDB supports event-driven workloads through [QLDB Streams](../qldb-streams/). QLDB Streams is a feature that allows changes made to the journal to be continuously written in near real time to a destination Kinesis Data Stream. Consumers can subscribe to the stream, and take appropriate action. For example, downstream systems can be notified that an order has been created, and create an invoice, prepare for dispatch or trigger further actions. QLDB Streams carry the full state of a document revision in the events that are streamed, using the [Event-Carried State Transfer pattern](https://martinfowler.com/articles/201701-event-driven.html).
+QLDB supports event-driven workloads through `QLDB Streams`. QLDB Streams is a feature that allows changes made to the journal to be continuously written in near real time to a destination Kinesis Data Stream. Consumers can subscribe to the stream, and take appropriate action. For example, downstream systems can be notified that an order has been created, and create an invoice, prepare for dispatch or trigger further actions. QLDB Streams carry the full state of a document revision in the events that are streamed, using the [Event-Carried State Transfer pattern](https://martinfowler.com/articles/201701-event-driven.html).
 
 QLDB Streams emit a separate REVISION_DETAILS record for each table that has been amended. This means that if related data are modelled in separate tables, additional work is required by the consumer.
 
