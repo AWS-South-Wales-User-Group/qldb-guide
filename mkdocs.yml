@@ -54,12 +54,7 @@ theme:
 nav:
   - Home: index.md
   - QLDB Guide:
-    - Intro: guide/index.md
-    - What is QLDB: guide/what-is-qldb.md
-    - Database Freedom: guide/database-freedom.md
-    - Setting Permissions: guide/setting-permissions.md
     - Data Design: guide/data-design.md
-    - Security: guide/security.md
   - QLDB Demo:
     - Demo: demo/index.md
     - About the Demo: demo/architecture.md
@@ -80,6 +75,7 @@ nav:
     - Stream Processing with DynamoDB Streams and QLDB Streams: blog/stream-processing-with-qldb-and-dynamodb.md
     - Stream Data to ElasticSearch: blog/stream-data-from-qldb-to-elasticsearch.md
     - Stream Data to DynamoDB: blog/stream-data-from-qldb-to-dynamodb.md
+  - QLDB Resources: https://github.com/mlewis7127/awesome-qldb
 
 markdown_extensions:
   - attr_list
