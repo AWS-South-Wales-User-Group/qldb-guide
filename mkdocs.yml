@@ -1,5 +1,8 @@
 site_name: QLDB Guide
 site_author: Matt Lewis
+site_url: https://qldbguide.com/
+site_description: >-
+  An open guide to the AWS ledger database
 
 # Repository
 repo_name: AWS-South-Wales-User-Group/qldb-guide
