@@ -1,5 +1,9 @@
-# A guide to the AWS ledger database
+---
+title: QLDB Guide
+description: An open guide to the AWS ledger database 
+---
 
+# A guide to the AWS ledger database
 
 ![logo](/assets/QLDB-Guide.svg)
 
