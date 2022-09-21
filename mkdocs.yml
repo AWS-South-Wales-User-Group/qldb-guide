@@ -55,7 +55,7 @@ theme:
 plugins:
   - social:
       cards_color:
-        fill: "#0FF1CE" 
+        fill: indigo 
         text: "#FFFFFF"
 
 
