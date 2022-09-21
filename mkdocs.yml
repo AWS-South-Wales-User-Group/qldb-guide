@@ -51,6 +51,13 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
+# plugins
+plugins:
+  - social:
+      cards_color:
+        fill: "#0FF1CE" 
+        text: "#FFFFFF"
+
 
 
 # Page tree
