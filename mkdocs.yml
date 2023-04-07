@@ -77,6 +77,7 @@ nav:
     - Patterns: patterns/index.md
   - Blog Posts: 
     - Overview: blog/index.md
+    - Redacting Data in QLDB: blog/redacting-data-in-qldb.md
     - Streaming Data to OpenSearch: blog/streaming-data-to-opensearch.md
     - Protecting Data in QLDB Ledger: blog/protecting-data-in-qldb.md
     - Concurrency Control in QLDB: blog/concurrency-control-in-qldb.md

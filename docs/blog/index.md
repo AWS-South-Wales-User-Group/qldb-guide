@@ -1,5 +1,10 @@
 I regularly publish blog posts on the AWS Heros `dev.to` space that can be found [here](https://dev.to/mlewis7127). QLDB related posts are republished below for completeness:
 
+2022 Posts
+
+* **[Redacting Data in Amazon QLDB](./redacting-data-in-qldb/)**
+
+
 2021 Posts
 
 * **[Streaming Data to OpenSearch](./streaming-data-to-opensearch/)**
