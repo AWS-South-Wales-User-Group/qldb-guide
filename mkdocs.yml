@@ -64,6 +64,8 @@ plugins:
 nav:
   - Home: index.md
   - QLDB Guide:
+    - Guide: guide/index.md
+    - What is QLDB: guide/what-is-qldb.md
     - Data Design: guide/data-design.md
   - QLDB Demo:
     - Demo: demo/index.md

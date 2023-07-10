@@ -12,6 +12,10 @@ This resource also includes a live QLDB demo site to bring the core features of 
 
 This resource is being continually updated. Please reach out with any updates or suggestions, or submit a pull request.
 
+## Overview
+
+* **[What is QLDB](./what-is-qldb/)** - a general overview of Amazon QLDB
+
 ## Data Modelling
 
 * **[Data Design](./data-design/)** - a look at considerations to take into account for modelling data in QLDB
