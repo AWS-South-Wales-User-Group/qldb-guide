@@ -15,6 +15,8 @@ This resource is being continually updated. Please reach out with any updates or
 ## Overview
 
 * **[What is QLDB](./what-is-qldb/)** - a general overview of Amazon QLDB
+* **[Database Freedom](./database-freedom/)** - a general overview of Amazon QLDB
+
 
 ## Data Modelling
 
